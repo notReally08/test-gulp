@@ -1,0 +1,35 @@
+{
+  "name": "test-gulp",
+  "version": "1.0.0",
+  "description": "How to work with gulp",
+  "main": "index.html",
+  "scripts": {
+    "dev": "gulp --development",
+    "build": "gulp build --production"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "browser-sync": "^2.26.13",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.3.0",
+    "gulp-less": "^4.0.1",
+    "gulp-mode": "^1.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-terser": "^1.2.0",
+    "webpack": "^5.16.0",
+    "webpack-stream": "^5.2.1"
+  }
+}
